@@ -34,20 +34,25 @@ The pipeline follows the **Medallion Architecture (Bronze, Silver, Gold layers)*
 ---
 
 ## 🏗️ Architecture
-Azure Resource Group
-↓
-Storage Account
-↓
-Container (zomato-external)
-↓
-raw → bronze → silver → gold
-↓
-Databricks (Spark Processing)
-↓
-Unity Catalog
-↓
-Analytics Tables
-
+Azure Resource Group  
+        ↓  
+Storage Account (ADLS Gen2)  
+        ↓  
+Container (zomato-external)  
+        ↓  
+Raw Data (CSV File)  
+        ↓  
+Bronze Layer (Raw Data Ingestion)  
+        ↓  
+Silver Layer (Data Cleaning & Transformation)  
+        ↓  
+Gold Layer (Business Analytics)  
+        ↓  
+Databricks (Apache Spark Processing)  
+        ↓  
+Unity Catalog (Table Management)  
+        ↓  
+Final Analytics Tables  
 
 ---
 
