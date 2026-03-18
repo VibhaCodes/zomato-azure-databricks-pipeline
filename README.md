@@ -60,8 +60,6 @@ Final Analytics Tables
 
 zomato-azure-databricks-pipeline/
 
-zomato-azure-databricks-pipeline/
-
 ├── notebooks/
 │   ├── 01_bronze_ingestion.py
 │   ├── 02_silver_transformation.py
