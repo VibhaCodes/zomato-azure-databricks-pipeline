@@ -60,24 +60,28 @@ Final Analytics Tables
 
 zomato-azure-databricks-pipeline/
 
-│── notebooks/
-│ ├── 01_bronze_ingestion.py
-│ ├── 02_silver_transformation.py
-│ ├── 03_gold_analytics.py
-│ ├── 04_business_insights.py
+zomato-azure-databricks-pipeline/
 
-│── screenshots/
-│ ├── 01_resource_group.png
-│ ├── 02_storage_account.png
-│ ├── 03_container.png
-│ ├── 04_folders_structure.png
-│ ├── 05_databricks_workspace.png
-│ ├── 06_cluster.png
-│ ├── 07_catalog.png
-│ ├── 08_bronze.png
-│ ├── 09_silver.png
-│ ├── 10_gold.png
-│ ├── 11_pipeline.png
+├── notebooks/
+│   ├── 01_bronze_ingestion.py
+│   ├── 02_silver_transformation.py
+│   ├── 03_gold_analytics.py
+│   └── 04_business_insights.py
+
+├── screenshots/
+│   ├── 01_resource_group.png
+│   ├── 02_storage_account.png
+│   ├── 03_container.png
+│   ├── 04_folders_structure.png
+│   ├── 05_databricks_workspace.png
+│   ├── 06_cluster.png
+│   ├── 07_access_connector.png
+│   ├── 08_external_location.png
+│   ├── 09_unity_catalog.png
+│   ├── 10_bronze.png
+│   ├── 11_silver.png
+│   ├── 12_gold.png
+│   └── 13_pipeline.png
 
 
 
@@ -115,6 +119,17 @@ zomato-azure-databricks-pipeline/
 
 ---
 
+
+## 🔐 Data Governance (Unity Catalog)
+
+- Used Access Connector to securely connect Databricks with Azure Storage
+- Created External Location to access ADLS data
+- Managed data using Unity Catalog (bronze, silver, gold layers)
+
+
+---
+
+
 ## 📈 Business Insights Generated
 
 - Top restaurants based on ratings
@@ -126,19 +141,29 @@ zomato-azure-databricks-pipeline/
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### Azure Setup
 ![Resource Group](screenshots/01_resource_group.png)
 ![Storage Account](screenshots/02_storage_account.png)
 ![Container](screenshots/03_container.png)
 
+### Databricks Setup
+![Workspace](screenshots/05_databricks_workspace.png)
+![Cluster](screenshots/06_cluster.png)
+
+### Data Governance
+![Access Connector](screenshots/07_access_connector.png)
+![External Location](screenshots/08_external_location.png)
+![Unity Catalog](screenshots/09_unity_catalog.png)
+
 ### Data Pipeline
-![Bronze Layer](screenshots/08_bronze.png)
-![Silver Layer](screenshots/09_silver.png)
-![Gold Layer](screenshots/10_gold.png)
+![Bronze](screenshots/10_bronze.png)
+![Silver](screenshots/11_silver.png)
+![Gold](screenshots/12_gold.png)
 
 ### Pipeline Execution
-![Pipeline](screenshots/11_pipeline.png)
-
+![Pipeline](screenshots/13_pipeline.png)
 ---
 
 ## 🎯 Conclusion
@@ -153,21 +178,8 @@ It showcases:
 
 ---
 
-## 📌 Future Improvements
-
-- Add real-time data ingestion
-- Integrate Power BI dashboards
-- Automate pipeline triggers
-- Add advanced analytics
-
----
-
 ## 👩‍💻 Author
 
 **Vibha Pateshwari**
 
 ---
-
-## ⭐ Note
-
-This project demonstrates practical implementation of **Data Engineering concepts using Azure and Databricks**, making it suitable for academic and professional use.
