@@ -163,7 +163,7 @@ zomato-azure-databricks-pipeline/
 
 ![External Location](screenshots/08_external_location.png)
 
-![Unity Catalog](screenshots/09_unity_catalog.png)
+![Unity Catalog](screenshots/09_unitycatalog.png)
 
 
 ### Data Pipeline
