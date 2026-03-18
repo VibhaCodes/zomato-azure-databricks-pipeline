@@ -149,7 +149,7 @@ zomato-azure-databricks-pipeline/
 
 ![Container](screenshots/03_container.png)
 
-![Container](screenshots/03_folder_structure.png)
+![Container](screenshots/04_folders_structure.png)
 
 ### Databricks Setup
 
