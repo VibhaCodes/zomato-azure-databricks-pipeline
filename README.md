@@ -141,30 +141,43 @@ zomato-azure-databricks-pipeline/
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### Azure Setup
+
 ![Resource Group](screenshots/01_resource_group.png)
+
 ![Storage Account](screenshots/02_storage_account.png)
+
 ![Container](screenshots/03_container.png)
 
+
 ### Databricks Setup
+
 ![Workspace](screenshots/05_databricks_workspace.png)
+
 ![Cluster](screenshots/06_cluster.png)
 
+
 ### Data Governance
+
 ![Access Connector](screenshots/07_access_connector.png)
+
 ![External Location](screenshots/08_external_location.png)
+
 ![Unity Catalog](screenshots/09_unity_catalog.png)
 
+
 ### Data Pipeline
+
 ![Bronze](screenshots/10_bronze.png)
+
 ![Silver](screenshots/11_silver.png)
+
 ![Gold](screenshots/12_gold.png)
 
+
 ### Pipeline Execution
+
 ![Pipeline](screenshots/13_pipeline.png)
----
 
 ## 🎯 Conclusion
 
