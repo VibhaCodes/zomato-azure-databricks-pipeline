@@ -186,7 +186,6 @@ It showcases:
 - Data ingestion
 - Data transformation
 - Data modeling
-- Analytics generation
 
 ---
 
